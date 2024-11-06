@@ -1,0 +1,9 @@
+A Injeção de Dependência (Dependency Injection, DI) é uma técnica que consiste em fornecer as dependências de fora da classe, em vez de a própria classe instanciá-las internamente. Isso ajuda na inversão de controle (IoC), onde o fluxo de controle de dependências é passado para uma entidade externa, como um container IoC ou o próprio usuário da classe, tornando o código mais flexível e testável.
+
+Em vez de uma classe criar diretamente seus objetos dependentes (instanciando com new), ela recebe esses objetos de fora, tornando o código mais flexível e testável. Com a DI, você injeta dependências para a classe funcionar, e isso pode ser feito de três maneiras principais:
+
+Construtor: A dependência é passada como parâmetro no construtor.
+Setter: A dependência é atribuída através de um método de configuração.
+Interface: A dependência é passada como uma interface, permitindo várias implementações.
+
+Assim ganhando menos acoplamento, mais estabilidade e mais flexibilidade dentro do codigo
